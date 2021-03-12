@@ -2,16 +2,16 @@
 // developmentUrl = 'http://localhost:5000/
 
 const api = {
-    getAllDepartments: 'http://js-ass3-btol.herokuapp.com/api/departments/',
+    getAllDepartments: 'https://js-ass3-btol.herokuapp.com/api/departments/',
     // Snippet #5
     getDepartment: (name)=>{
-        return `http://js-ass3-btol.herokuapp.com/api/departments/name/${name}`
+        return `https://js-ass3-btol.herokuapp.com/api/departments/name/${name}`
     },
     deleteEmployee: (id)=>{
-        return `http://js-ass3-btol.herokuapp.com/api/departments/employee/id/${id}` 
+        return `https://js-ass3-btol.herokuapp.com/api/departments/employee/id/${id}` 
     },
     updateEmployee: (id)=>{
-        return `http://js-ass3-btol.herokuapp.com/api/departments/employee/update` 
+        return `https://js-ass3-btol.herokuapp.com/api/departments/employee/update` 
     }
 }
 
